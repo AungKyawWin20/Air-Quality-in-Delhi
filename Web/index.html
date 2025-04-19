@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Geospatial Plots</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .map-list {
+      list-style: none;
+      padding: 0;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .map-list li {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 1rem 0;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .map-list li:hover {
+      transform: translateY(-2px);
+    }
+
+    a {
+      text-decoration: none;
+      color: #0070f3;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 4rem;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌍 Interactive Geospatial Plots</h1>
+  <p>Explore the maps below:</p>
+
+  <ul class="map-list">
+    <li><a href="../Plots/brightness_map_2022-10.html" target="_blank">🗺️ Map 1: Fires Detected in 2022 October</a></li>
+    <li><a href="../Plots/brightness_map_2022-11.html" target="_blank">🗺️ Map 2: Fires Detected in 2022 November</a></li>
+    <li><a href="../Plots\monthly_pm10.html" target="_blank">🗺️ Map 3: Monthly PM10 Pollutant Data From 2014 to Present</a></li>
+    <li><a href="../Plots\monthly_pm25.html" target="_blank">🗺️ Map 4: Monthly PM2.5 Pollutant Data From 2014 to Present</a></li>
+    <li><a href="../Plots\vehicle_trends.html" target="_blank">🗺️ Map 5: Personal Vehicle Count</a></li>
+    <!-- Add more map links like below -->
+    <!-- <li><a href="plots/map3.html" target="_blank">🌡️ Map 3: Climate Zones</a></li> -->
+  </ul>
+
+  <footer>
+    &copy; 2025 Aung Kyaw Win | Hosted on Cloudflare Pages
+  </footer>
+</body>
+</html>
