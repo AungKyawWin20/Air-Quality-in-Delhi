@@ -1,6 +1,6 @@
 # Air-Quality-in-Delhi
 
-## Developing a data-driven narrative for AQI levels in Delhi, using data from determining possible reasons
+## Developing a data-driven narrative for AQI levels in Delhi, using data from various data sources for determining possible reasons
 
 ## Installation & Setup
 
